@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio acadêmico de Pedro Bumbieris Travaim">
+  <title>Pedro Bumbieris Travaim | Portfólio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">Pedro Bumbieris Travaim</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#atividades">Atividades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#sites">Sites</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h1>Pedro Bumbieris Travaim</h1>
+      <p class="sub">Aluno da INFO 6B do Instituto Federal de Mato Grosso do Sul</p>
+      <a class="btn" href="#projetos">Ver projetos</a>
+      <a class="btn btn-claro" href="#contato">Entrar em contato</a>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <div class="sobre-grid">
+        <div class="foto" aria-hidden="true">PB</div>
+        <div>
+          <ul class="dados">
+            <li><strong>Nome:</strong> Pedro Bumbieris Travaim</li>
+            <li><strong>Curso:</strong> Informática (turma INFO 6B)</li> <!-- confira o nome oficial do curso -->
+            <li><strong>Instituição:</strong> Instituto Federal de Mato Grosso do Sul (IFMS) - Campus Nova Andradina</li>
+          </ul>
+          <p>Sou estudante de Informática e gosto de desenvolvimento web, banco de dados e segurança da informação. Neste portfólio reúno as atividades, projetos e sites que desenvolvi ao longo da minha trajetória acadêmica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="atividades">
+      <h2>Atividades acadêmicas</h2>
+      <div class="cards">
+        <article class="card">
+          <img class="foto-card" src="img/estagio-w3case.jpg" alt="Pedro realizando estágio na Agência W3 Case">
+          <h3>Estágio na Agência W3 Case</h3>
+          <p>Experiência prática de estágio em ambiente profissional de tecnologia.</p> <!-- descreva suas funções -->
+        </article>
+        <article class="card"><h3>Segurança da Informação</h3><p>Senhas, criptografia com GPG e OpenSSL, SSH, políticas de segurança, assinatura e certificação digital.</p></article>
+        <article class="card"><h3>Banco de Dados</h3><p>Modelagem e consultas em estudo de caso de uma clínica veterinária (veterinário, animal e consulta).</p></article>
+        <article class="card"><h3>Programação para Servidor (Node e Express)</h3><p>Servidor HTTP nativo, rotas, middlewares e organização de uma API em Express.js.</p></article>
+        <article class="card"><h3>Aplicações Cliente (React)</h3><p>Consumo de APIs com fetch, useState e useEffect.</p></article>
+        <article class="card"><h3>Dispositivos Móveis</h3><p>PWA, Offline First e App Shell aplicados em uma agenda escolar.</p></article>
+        <article class="card"><h3>Git e GitHub</h3><p>Branches, merges, pull requests, correção de bugs e revisão de código em colaboração.</p></article>
+        <article class="card"><h3>Matemática e Estatística</h3><p>Números complexos, análise combinatória e fatorial.</p></article>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Portal de Notícias</h3>
+          <p>Projeto em dupla com Enzo Fuso Paschoalim, usando Express.js, com dados em arrays e migração planejada para MongoDB.</p>
+          <p class="papel"><strong>Minha participação:</strong> desenvolvimento do back-end e das rotas junto com a equipe.</p> <!-- ajuste -->
+          <span class="tag">Node</span><span class="tag">Express</span>
+        </article>
+        <article class="card">
+          <h3>API de Tarefas</h3>
+          <p>API com rotas /tarefas e exercícios de middlewares, feita em aula no GitHub Codespaces.</p>
+          <p class="papel"><strong>Minha participação:</strong> projeto individual.</p>
+          <span class="tag">Express</span><span class="tag">REST</span>
+        </article>
+        <article class="card">
+          <h3>Agenda Escolar (PWA)</h3>
+          <p>Aplicação web progressiva com funcionamento offline usando App Shell.</p>
+          <p class="papel"><strong>Minha participação:</strong> projeto individual.</p>
+          <span class="tag">PWA</span><span class="tag">JavaScript</span>
+        </article>
+        <article class="card">
+          <h3>Clínica Veterinária Vida Animal</h3>
+          <p>Banco de dados relacional para controle de veterinários, animais e consultas.</p>
+          <p class="papel"><strong>Minha participação:</strong> modelagem e consultas SQL.</p>
+          <span class="tag">SQL</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="eventos">
+      <h2>Feiras e eventos</h2>
+      <div class="cards">
+        <article class="card">
+          <img class="foto-card" src="img/fecinova.jpg" alt="Equipe do IFMS na feira Fecinova">
+          <h3>Fecinova</h3>
+          <p>Participação na feira de ciência e inovação representando o IFMS.</p> <!-- acrescente ano, projeto apresentado e premiação, se houver -->
+        </article>
+      </div>
+    </section>
+
+    <section id="sites">
+      <h2>Sites desenvolvidos</h2>
+      <div class="cards">
+        <article class="card site">
+          <div class="thumb">Portal de Notícias</div> <!-- troque por <img src="img/portal.png" alt="..."> -->
+          <h3>Portal de Notícias</h3>
+          <p>Portal com publicação e listagem de notícias.</p>
+          <a class="btn btn-peq" href="https://github.com/travaimp-afk/portal-noticias" target="_blank" rel="noopener">Ver código</a>
+        </article>
+        <article class="card site">
+          <div class="thumb">Agenda Escolar</div>
+          <h3>Agenda Escolar PWA</h3>
+          <p>Agenda que funciona offline.</p>
+          <a class="btn btn-peq" href="https://github.com/pedrotravaim-commits/projetofinalpdm1" target="_blank" rel="noopener">Ver código</a>
+        </article>
+        <article class="card site">
+          <div class="thumb">Este portfólio</div>
+          <h3>Portfólio Acadêmico</h3>
+          <p>O site que você está vendo, feito com HTML, CSS e JavaScript.</p>
+          <a class="btn btn-peq" href="https://github.com/pedrotravaim-commits/Site-de-ger-ncia" target="_blank" rel="noopener">Ver código</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="skills" id="skills"></div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <ul class="contato">
+        <li><strong>E-mail:</strong> <a href="mailto:pedrotravaim@gmail.com">pedrotravaim@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/pedrotravaim-commits" target="_blank" rel="noopener">github.com/pedrotravaim-commits</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© <span id="ano"></span> Pedro Bumbieris Travaim · IFMS Nova Andradina</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
